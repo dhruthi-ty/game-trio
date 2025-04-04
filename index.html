@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tri-fusion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TRI-FUSION</h1>
+    <h2>Choose a Game!</h2>
+    <div class="game-container">
+        <div class="game-box">
+            <img src="ttt.jpg" alt="Tic-Tac-Toe" class="game-image">
+            <button class ="button" onclick="goToGame('ttt.html')">Tic-Tac-Toe</button>
+        </div>
+    
+        <div class="game-box">
+            <img src="rps.jpg" alt="Rock Paper Scissors" class="game-image">
+            <button class ="button" onclick="goToGame('rps.html')">Rock Paper Scissors</button>
+        </div>
+    
+        <div class="game-box">
+            <img src="hangman.jpg" alt="Hangman" class="game-image">
+            <button class ="button" onclick="goToGame('hangman.html')">Hangman</button>
+        </div>
+    </div>
+    
+    <script>
+        function goToGame(gamePage) {
+            window.location.href = gamePage;
+        }
+    </script>
+</body>
+</html>

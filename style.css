@@ -1,0 +1,74 @@
+body 
+{
+    background-color: #ccd5ae;
+}
+h1{
+    color:#d4a373;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: row; /* Stack image and button vertically */
+    align-items: center; /* Center the image and button */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Space between games */
+    margin-top: 20px;
+    min-height: 50vh;
+}
+
+.game-box {
+    text-align: center;
+    background-color:#e9edc9; /* Light background for each game box */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.game-box:hover {
+    transform: scale(1.05);
+}
+
+.game-image {
+    width: 150px; /* Adjust size */
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Space between buttons */
+}
+
+.button {
+    background-color: #a98467;
+    color: white;
+    padding: 12px 24px;
+    margin-top: auto;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #8f7355;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
