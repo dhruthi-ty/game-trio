@@ -48,4 +48,25 @@ Built purely with HTML, CSS, and Vanilla JavaScript, this project brings back th
 
 ---
 
+games-project/
+│
+├── index.html                # Main hub / game selector page
+│
+├── ttt.html                  # Tic Tac Toe game
+├── rps.html                  # Rock Paper Scissors game
+├── hangman.html              # Hangman game
+│
+├── css/
+│   ├── index.css             # Styles for main index.html
+│   ├── ttt.css               # Styles for Tic Tac Toe
+│   ├── rps.css               # Styles for Rock Paper Scissors
+│   └── hangman.css           # Styles for Hangman
+│
+├── js/
+│   ├── index.js              # Logic for main hub (buttons, nav, etc.)
+│   ├── ttt.js                # Game logic for Tic Tac Toe
+│   ├── rps.js                # Game logic for Rock Paper Scissors
+│   └── hangman.js            # Game logic for Hangman
+│
+└── README.md                 # Project README file
 
